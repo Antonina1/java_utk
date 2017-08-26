@@ -11,6 +11,7 @@ import static ru.stqa.utk.sandbox.Point.*;
 public class PointTest {
 @Test
     public void TestDistance()
+
     {
 Point p1 = new Point (3,4);
 Point p2 = new Point( 6,5);
