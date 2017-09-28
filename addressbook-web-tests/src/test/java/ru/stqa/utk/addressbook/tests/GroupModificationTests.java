@@ -13,7 +13,7 @@ public void testGroupModification () {
         app.getNavigationHelper().gotoGroupPage();
         app.getGroupHelper().selectGroup();
         app.getGroupHelper().initGroupModification();
-        app.getGroupHelper().fillGroupForm(new GroupData("test6", "test7", "test8"));
+        app.getGroupHelper().fillGroupForm(new GroupData("test6", null, null));
         app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupPage();
 

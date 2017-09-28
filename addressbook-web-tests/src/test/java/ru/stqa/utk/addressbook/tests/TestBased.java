@@ -10,7 +10,7 @@ import ru.stqa.utk.addressbook.appmanager.ApplicationManager;
  */
 public class TestBased {
 
-    public final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+    protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
     @BeforeMethod
     public void setUp() throws Exception {
