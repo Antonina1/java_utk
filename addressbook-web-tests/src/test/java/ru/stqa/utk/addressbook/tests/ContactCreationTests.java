@@ -3,7 +3,7 @@ package ru.stqa.utk.addressbook.tests;
 import org.testng.annotations.Test;
 import ru.stqa.utk.addressbook.model.ContactData;
 
-public class NewContact extends TestBased{
+public class ContactCreationTests extends TestBased{
 
     @Test
     public void testNewContact() {
